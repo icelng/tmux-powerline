@@ -32,7 +32,8 @@ if [ -z $TMUX_POWERLINE_LEFT_STATUS_SEGMENTS ]; then
 		#"date_day 235 136" \
 		"date 235 136 ${TMUX_POWERLINE_SEPARATOR_RIGHT_THIN}" \
 		"time 235 136 " \
-		"cpu 240 136" \
+		#"cpu 240 136" \
+		"hostname 240 136" \
 		"pwd 89 211" \
 		"vcs_branch 29 88" \
 		#"vcs_compare 60 255" \
